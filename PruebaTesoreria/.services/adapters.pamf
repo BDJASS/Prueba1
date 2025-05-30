@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lm:eCafModel xmlns:lm="http://www.progress.com/tools/caf/core/internal/logicalStructure/schema/v1.0" version="1.0">
+  <lm:serviceCollection adapterType="REST" usage="EXPOSE">
+    <lm:services displayName="PruebaTesoreriaService" id="PruebaTesoreriaService" product="Progress Developer Studio for OpenEdge" serviceFolder="Expose/rest/PruebaTesoreriaService" serviceName="PruebaTesoreriaService">
+      <lm:details>
+        <lm:adapterDetails>
+          <lm:properties>
+            <lm:properties name="applicationRelativePath">/PruebaTesoreriaService</lm:properties>
+          </lm:properties>
+        </lm:adapterDetails>
+        <lm:productDetails name="ABL_REST">
+          <lm:properties>
+            <lm:properties name="ABL_REST_SERVICE">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;abl_rest>&lt;service>&lt;name>PruebaTesoreriaService&lt;/name>&lt;resources/>&lt;/service>&lt;/abl_rest></lm:properties>
+          </lm:properties>
+        </lm:productDetails>
+      </lm:details>
+      <lm:nodes id="/PruebaTesoreriaService_groupingNode" name="PruebaTesoreriaService"/>
+      <lm:propertyDetails/>
+    </lm:services>
+  </lm:serviceCollection>
+  <lm:propertyDetails>
+    <lm:propertyFileLocation>PruebaTesoreria.properties</lm:propertyFileLocation>
+  </lm:propertyDetails>
+</lm:eCafModel>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="12.8">
+    <module id="37f44f5e-0ef5-4e19-811c-5d391c1fea1b" name="PruebaTesoreria">
+        <resource path="AppServer" publish="true"/>
+    </module>
+</module-content>
