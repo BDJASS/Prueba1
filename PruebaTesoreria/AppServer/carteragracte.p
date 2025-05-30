@@ -228,7 +228,7 @@ PROCEDURE GetCarteraResp:
         ASSIGN 
             ttCartera.SolicitudesNuevas     = iCountEstatus1
             ttCartera.SolicitudesValidacion = iCountEstatus2
-            ttCartera.TotalCartera          = l-total.   
+            ttCartera.TotalCartera          = l-total.   /* H0LA */ 
     END.        
       
 END PROCEDURE. 
